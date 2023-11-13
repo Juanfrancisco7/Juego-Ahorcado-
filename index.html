@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://kit.fontawesome.com/29bbc9f2d3.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Juego del ahorcado</title>
+    </head>
+    
+    <body>
+
+    <head>
+
+
+    </head>
+
+    <main> 
+
+        <section id="div-desaparece" class="botones botones-home">
+
+            <button class="boton_ini" id="iniciar-juego" onclick="iniciarJuego()">Iniciar juego</button>
+            <button class="boton_agg" id="btn-Agg " onclick="ensenarPantallaDeAgregarPalabra()">Agregar nueva palabra</button>
+            
+        </section>
+
+        <section class="canvas" id="aparece-ahorcado">
+
+            <canvas id="forca" width="1280" height="860"></canvas>
+            
+            <div class="subrayado"></div>
+
+            <div class="botones-div-canvas">
+                <input class="btn-azul" type="submit" value="Nuevo Juego" id="btn-nuevo-juego" />
+                <input class="btn-blanco" type="submit" value="Salir" id="btn-salir" />
+            </div>
+
+        </section>
+
+        <div id="agregar-palabra" class="palabra-nueva">
+            <input class="text-input" type="text" id="input-nueva-palavra" maxlength="8"
+                placeholder="Escriba una palabra" />
+            <div class="form-group">
+                <img src="https://i.imgur.com/Lfbe67r.png" class="img-alerta" />
+                <label for="input-texto"> Máx. 8 caracteres</label>
+            </div>
+            <div class="botones-div">
+                <input class="btn-azul" type="submit" value="Guardar y empezar" id="btn-guardar" />
+                <input class="btn-blanco" type="submit" value="Cancelar" id="btn-cancelar" />
+            </div>
+        </div>
+    
+    </main>
+
+        <footer class="Rodapie">
+
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="https://www.aluracursos.com/">
+                        </a>
+                    </figure>
+                </div>
+              
+                <div class="box">
+                    <h2>SIGUEME</h2>
+                    <div class="red-social">
+                       
+                        <a href="ttps://instagram.com/juanfrancisco7/" class="fa fa-facebook"></a>
+
+                        <a href="https://instagram.com/juanfrancisco7/" class="fa fa-instagram"></a>
+
+                        <a href="https://github.com/Juanfrancisco7" class="fa-brands fa-linkedin"></a>
+
+                        <a href="https://github.com/Juanfrancisco7" class="fa-brands fa-square-github"></a>
+                    </div>
+                </div>
+           </div>
+
+           <div class="grupo-2">
+                <small>&copy; 2023 <b>@Juanfrancisco7</b> - Todos los derechos recervados</small>
+           </div>
+        </footer>
+
+        <script src="js/horca.js"></script>
+        <script src="js/canvas.js"></script>
+    </body>
+</html>

@@ -1,0 +1,228 @@
+body{
+
+    width: 100vw;
+    background-image: radial-gradient(circle at 11.01% -5.68%, #a0b9e1 0, #356da9 50%, #002b73 100%);
+}
+
+#logo-1{
+
+    position: absolute;
+    width: 120px; 
+    top: 40px;
+    left: 40px;
+}
+
+#forca{
+    background-color: transparent;
+}
+
+.botones{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  
+}
+
+.boton_ini {
+
+    width: 317px;
+    height: 114px;
+    margin: auto;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: #ffffff;
+    font-size: 20px;
+    transition: all 400ms;
+    padding: 24px;
+
+}
+
+.boton_ini:hover {
+
+    transform: scale(1.05);
+}
+
+.boton_agg {
+
+    background-color: #ffffff;
+    font-size: 15px;
+     width: 280px ;
+     height: 67px ;
+     border-radius: 24px;
+     margin: auto;
+     transition: all 400ms;
+     padding: 24px;
+
+}
+
+.boton_agg:hover {
+
+    transform: scale(1.05);
+}
+
+.botones-div-canvas{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    left: 4rem;
+    top: 20rem;
+
+
+}
+
+.palabra-nueva{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-input{
+    background: transparent;
+    border: none;
+    padding: 2rem;
+    outline: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.text-input::placeholder{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.img-alerta{
+background: red;
+/* color: black; */
+border: 1px solid red;
+border-radius: 100%;
+}
+.btn-azul{
+    background-color: #0A3871;
+    padding: 1.2rem 3rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #fdfdfd;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 2rem 2rem;
+    transition: all 500ms;
+    
+
+}
+.btn-azul:hover{
+    transform: scale(1.2);
+}
+
+.btn-blanco{
+    background-color: #fdfdfd;
+    padding: 1.2rem 3rem;
+    border: 1px solid #00000099;
+    border-radius: 5px;
+    color: #0A3871;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.btn-blanco:hover{
+    transform: scale(1.2);
+}
+
+.Rodapie{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: #0A3871;
+}
+
+.Rodapie .grupo-1{
+
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 31%);
+    grid-gap: 50px ;
+    padding: 45px 0;
+}
+
+.Rodapie .grupo-1 .box figure{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.Rodapie .grupo-1 .box figure img{
+
+    width: 200px;
+    
+}
+
+.Rodapie .grupo-1 .box h2{
+
+    color : #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Rodapie .grupo-1 .box p {
+
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.Rodapie .grupo-1 .red-social{
+    padding: 0px 0 0 20%;
+}
+
+.Rodapie .grupo-1 .red-social a{
+
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color : #fff;
+    margin-right: 10px;
+    background-color:#356EA9 ;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    transition: all 400ms ease;
+}
+
+.Rodapie .grupo-1 .red-social a:hover{
+
+    color: aqua;
+    transform: scale(1.2);
+}
+
+.Rodapie .grupo-2{
+
+    background-image: radial-gradient(circle at -18.3% 31.7%, #94a4bf 0, #356da9 50%, #003c92 100%);
+    color:#ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.Rodapie .grupo-2 small{
+
+    font-size: 15px;
+
+}
+
+.Rodapie .grupo-2 small b{
+    font-weight: bold;
+}
