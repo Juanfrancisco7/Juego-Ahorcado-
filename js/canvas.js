@@ -30,7 +30,7 @@ function dibujarLinea(){
         tablero.moveTo(500 + (anchura*i), 640)
         tablero.lineTo(550 + (anchura*i), 640)
 
-    } if (palabraSecreta.length > 10){
+    } if (palabraSecreta.length > 11){
         tablero.moveTo(500 + (anchura*i), 640)
         tablero.lineTo(525 + (anchura*i), 640)
 
